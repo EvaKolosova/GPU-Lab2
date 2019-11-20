@@ -1,0 +1,44 @@
+local_size (thread_num = 8, SIZE = 10 240 000):
+
+8: 
+SAXPY
+GPU time = 11ms
+DAXPY
+GPU time = 9.8ms
+
+16:
+SAXPY
+GPU time = 5.80ms
+DAXPY
+GPU time = 9.72ms
+
+32: 
+SAXPY
+GPU time = 4.99ms
+DAXPY
+GPU time = 9.91ms
+
+64: 
+SAXPY
+GPU time = 4.95ms
+DAXPY
+GPU time = 9.84ms
+
+128: 
+SAXPY
+GPU time = 4.98ms
+DAXPY
+GPU time = 9.81ms
+
+256: that one
+SAXPY
+GPU time = 4.73ms
+DAXPY
+GPU time = 9.79ms
+
+512: 
+SAXPY
+GPU time = 4.83ms
+DAXPY
+GPU time = 9.84ms
+
